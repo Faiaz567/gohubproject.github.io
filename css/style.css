@@ -1,0 +1,684 @@
+/********************************************************
+*****************Global Css Start***********************/
+*{
+padding: 0;
+margin: 0;
+}
+body{
+font-family: ;
+font-size: 14px;
+font-weight: ;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Brown Bold';
+}
+p{
+font-family: 'Brown Regular';
+}
+a,a:hover{
+text-decoration: none;
+}
+@font-face{
+font-family: 'Brown Bold';
+src: url(../fonts/Brown-Bold.woff);
+font-style: normal;
+}
+@font-face{
+font-family: 'Brown Regular';
+src: url(../fonts/Brown-Regular.woff);
+font-style: normal;
+}
+@font-face{
+font-family: 'Brown Light';
+src: url(../fonts/Brown-Light.woff);
+font-style: normal;
+}
+/********************************************************
+*****************Global Css end***********************/
+/********************************************************
+*****************Header-section Css start*****************
+*********************************************************/
+.header-section{
+width: 100%;
+height: 870px;
+background: url(../images/bg.png) center top no-repeat;
+background-size: cover;
+}
+.header-section .bg-light {
+background-color: transparent !important;
+padding: 20px 0px;
+}
+.navbar-brand{
+margin-left: 100px;
+}
+.navbar-collapse{
+margin-right: 90px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+color: #b1abff;
+font-family: 'Brown Bold';
+font-size: 16px;
+font-weight: 600;
+margin-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+color: #000;
+font-size: 16px;
+font-weight: 600;
+margin-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: #b1abff;
+}
+.nav-btn .btn-info{
+padding: 3px 10px;
+background:#845cff;
+border: 1px solid #845cff;
+border-radius: 2px;
+}
+.nav-btn{
+margin-left: 10px;
+}
+.nav-btn .btn-info:hover{
+background: #fff;
+color: #845cff;
+border: 1px solid #845cff;
+transition: 0.5s ease-in;
+}
+.banner-section{
+width: 100%;
+}
+.banner-section .banner-inner{
+padding-top: 140px;
+padding-left: 116px;
+}
+.banner-section .banner-inner h1{
+font-size: 34px;
+color: #32325d;
+margin: 20px 0px;
+}
+.banner-section .banner-inner p{
+color: #7c869e;
+font-size: 16px;
+margin-bottom: 40px;
+}
+.banner-section .banner-inner .btn-info{
+padding: 7px 15px;
+font-size: 12px;
+background:#845cff;
+border: 1px solid #845cff;
+border-radius: 2px;
+text-transform: uppercase;
+font-weight: 500;
+box-shadow:-11px 11px 5px 1px #f6f7fc;
+}
+.banner-btn .btn-info:hover{
+background: #fff;
+color: #845cff;
+border: 1px solid #845cff;
+transition: 0.5s ease-in;
+}
+.banner-btn  a span{
+color: #32325d;
+font-family: 'Brown Regular';
+font-size: 15px;
+font-weight: 500;
+margin-top: 20px;
+margin-left: 10px;
+}
+.banner-btn  a span i{
+margin-left: 5px;
+}
+.banner-btn  a span:hover{
+color: #845cff;
+}
+/********************************************************
+*****************Header-section Css end*****************
+*********************************************************/
+/********************************************************
+*****************feature-section Css start*****************
+*********************************************************/
+.feature-section{
+width: 100%;
+padding: 0px 0px 60px;
+margin-top: -275px;
+}
+.feature-section .feature-inner-left{
+padding: 50px;
+margin-left: 58px;
+margin-top: 85px;
+}
+.feature-section .feature-inner-left h2{
+font-family: 'Brown Light';
+color: #32325d;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.feature-section .feature-inner-left p{
+font-family: 'Brown Light';
+color: #7c869e;
+}
+.feature-section .feature-inner-left1{
+padding: 57px 35px 54px;
+box-shadow:-4px 8px 48px 6px rgba(0,0,0,0.03);
+margin-left: 100px;
+}
+.feature-section .feature-inner-left1 img{
+margin-bottom: 20px;
+width: 26%;
+}
+.feature-section .feature-inner-left1 h3{
+font-family: 'Brown Light';
+color: #32325d;
+font-weight: 600;
+font-size: 20px;
+}
+.feature-section .feature-inner-left1 p{
+font-family: 'Brown Light';
+color: #7c869e;
+font-size: 13px;
+}
+.feature-section .feature-inner-right{
+padding:  45px 30px;
+box-shadow:-4px 8px 48px 6px rgba(0,0,0,0.03);
+margin-bottom: 35px;
+margin-right: 102px;
+margin-left: 30px;
+}
+.feature-section .feature-inner-right img{
+margin-bottom: 20px;
+width: 30%;
+}
+.feature-section .feature-inner-right h3{
+font-family: 'Brown Light';
+color: #32325d;
+font-weight: 600;
+font-size: 20px;
+}
+.feature-section .feature-inner-right p{
+font-family: 'Brown Light';
+color: #7c869e;
+font-size: 13px;
+}
+/********************************************************
+*****************feature-section Css end*****************
+*********************************************************/
+/********************************************************
+*****************Service-section Css start*****************
+*********************************************************/
+.service-section{
+width: 100%;
+padding: 20px 0px 80px;
+background: url(../images/bg1.png) center top no-repeat;
+background-size:cover;
+}
+.service-section .container{
+	width: 100%;
+	padding: 10px 30px;
+}
+.service-section .service-title{
+width: 100%
+}
+.service-section .service-title h2{
+font-family: 'Brown Regular';
+color: #32325d;
+margin-bottom: 20px;
+}
+.service-section .service-title p{
+font-family: 'Brown Light';
+color: #7c869e;
+line-height: 22px;
+margin-bottom: 80px;
+}
+.service-section .section-inner{
+width: 100%;
+margin-bottom: 80px;
+}
+.service-section .section-inner img{
+width: 20%;
+}
+.service-section .section-inner h4{
+font-family: 'Brown Regular';
+color: #32325d;
+font-size: 15px;
+margin-top: 20px;
+}
+.service-section .section-inner p{
+font-family: 'Brown Light';
+color: #7c869e;
+}
+/********************************************************
+*****************Service-section Css end*****************
+*********************************************************/
+/********************************************************
+*****************Safety-section Css start*****************
+*********************************************************/
+.safety-section{
+width: 100%;
+padding: 90px 0px;
+}
+.safety-section .safety-inner{
+width: 100%;
+margin-left: 92px;
+}
+.safety-section .safety-inner h2{
+font-family: 'Brown Light';
+color: #32325d;
+margin-bottom: 20px;
+}
+.safety-section .safety-inner p{
+font-family: 'Brown Light';
+color: #7c869e;
+font-size: 17px;
+}
+.safety-section .safety-inner ul li{
+list-style: none;
+display: inline-block;
+}
+.safety-section .safety-inner .left{
+	margin-right: 80px;
+}
+.safety-section .safety-inner .left h4{
+font-family: 'Brown Light';
+color: #32325d;
+margin-top: 12px;
+}
+.safety-section .safety-inner .left p{
+	font-size: 14px;
+}
+.safety-section .safety-inner .right h4{
+font-family: 'Brown Light';
+color: #32325d;
+margin-top: 12px;
+}
+.safety-section .safety-inner .right p{
+	font-size: 14px;
+}
+.safety-section .safety-inner .safety-btn .btn-info{
+padding: 7px 15px;
+font-size: 12px;
+background:#845cff;
+border: 1px solid #845cff;
+border-radius: 2px;
+text-transform: uppercase;
+font-weight: 500;
+box-shadow:-11px 11px 5px 1px #f6f7fc;
+}
+.safety-section .safety-inner .safety-btn{
+	margin-top: 10px;
+}
+.safety-section .safety-inner .safety-btn .btn-info:hover{
+background: #fff;
+color: #845cff;
+border: 1px solid #845cff;
+transition: 0.5s ease-in;
+}
+.safety-btn  a span{
+color: #32325d;
+font-family: 'Brown Regular';
+font-size: 15px;
+font-weight: 500;
+margin-top: 20px;
+margin-left: 10px;
+}
+.safety-btn  a span i{
+margin-left: 5px;
+}
+.safety-btn  a span:hover{
+color: #845cff;
+}
+.safety-section .safety-inner1 img{
+	width: 90%;
+
+}
+/********************************************************
+*****************Safety-section Css end*****************
+*********************************************************/
+
+/********************************************************
+*****************Move-section Css start*****************
+*********************************************************/
+.move-section{
+	width: 100%;
+	padding: 60px 0px;
+
+}
+
+.move-section .move-inner1{
+	width: 100%;
+}
+.move-section .move-inner1 img{
+	width: 92%;
+	margin-left: 25px;
+}
+.move-section .move-inner2{
+	width: 100%;
+	margin-left: 45px;
+}
+.move-section .move-inner2 h2{
+font-family: 'Brown Light';
+color: #32325d;
+margin-bottom: 20px;
+}
+.move-section .move-inner2 p{
+font-family: 'Brown Light';
+color: #7c869e;
+font-size: 17px;
+}
+.move-section .move-inner2 ul li{
+list-style: none;
+display: inline-block;
+}
+.move-section .move-inner2 .left{
+	margin-right: 80px;
+}
+.move-section .move-inner2 .left h4{
+font-family: 'Brown Light';
+color: #32325d;
+margin-top: 12px;
+}
+.move-section .move-inner2 .left p{
+	font-size: 14px;
+}
+.move-section .move-inner2 .right h4{
+font-family: 'Brown Light';
+color: #32325d;
+margin-top: 12px;
+}
+.move-section .move-inner2 .right p{
+	font-size: 14px;
+}
+.move-section .move-inner2 .move-btn .btn-info{
+padding: 7px 15px;
+font-size: 12px;
+background:#845cff;
+border: 1px solid #845cff;
+border-radius: 2px;
+text-transform: uppercase;
+font-weight: 500;
+box-shadow:-11px 11px 5px 1px #f6f7fc;
+}
+.move-section .move-inner2 .move-btn{
+	margin-top: 10px;
+}
+.move-section .move-inner2 .move-btn .btn-info:hover{
+background: #fff;
+color: #845cff;
+border: 1px solid #845cff;
+transition: 0.5s ease-in;
+}
+.move-btn  a span{
+color: #32325d;
+font-family: 'Brown Regular';
+font-size: 15px;
+font-weight: 500;
+margin-top: 20px;
+margin-left: 10px;
+}
+.move-btn  a span i{
+margin-left: 5px;
+}
+.move-btn  a span:hover{
+color: #845cff;
+}
+/********************************************************
+*****************Move-section Css end*****************
+*********************************************************/
+
+/********************************************************
+*****************finance-section Css start****************
+*********************************************************/
+
+.finance-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.finance-section .finance-inner1{
+	width: 100%;
+	margin-left: 60px;
+
+}
+.finance-section .finance-inner1 h2{
+		font-family: 'Brown Regular';
+color: #32325d;
+margin-bottom: 15px;
+
+}
+
+.finance-section .finance-inner1 p{
+	font-family: 'Brown Light';
+color: #7c869e;
+}
+
+.finance-section .finance-inner1 .finance-fix{
+	margin-top: 60px;
+}
+.finance-section .finance-inner1 .finance-fix h4{
+		font-family: 'Brown Regular';
+color: #32325d;
+margin-bottom: 20px;
+
+}
+.finance-section .finance-inner1 .finance-fix li{
+	list-style: none;
+
+}
+.finance-section .finance-inner1 .finance-fix li img{
+	margin-right: 10px;
+}
+.finance-section .finance-inner2{
+	width: 100%;
+
+}
+.finance-section .finance-inner2 img{
+	    width: 100%;
+    margin-top: -80px;
+    margin-left: 100px;
+}
+.finance-section .finance-inner3{
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 60px;
+
+}
+.finance-section .finance-inner3 h4{
+	font-family: 'Brown Regular';
+	margin-bottom: 20px;
+
+}
+.finance-section .finance-inner3 p{
+	font-family: 'Brown Light';
+	color: #7c869e;
+
+}
+
+.finance-section .finance-inner3 li{
+	list-style: none;
+}
+.finance-section .finance-inner3  li img{
+	margin-right: 10px;
+}
+
+/********************************************************
+*****************finance-section Css end****************
+*********************************************************/
+
+/********************************************************
+*****************Demo-section Css start****************
+*********************************************************/
+.demo-section{
+	width: 100%;
+	padding: 40px 0px;
+	background: #fafaff;
+}
+.demo-section .demo-inner{
+	width: 100%;
+	margin-left: 60px;
+
+}
+.demo-section .demo-inner h2{
+	color: #32325d;
+	font-family: 'Brown Light';
+
+}
+.demo-section .demo-inner p{
+	font-family: 'Brown Light';
+	color: #7c869e;
+}
+.demo-section .form-inner{
+	width: 100%;
+	margin-left: -20px;
+}
+.demo-section .form-group{
+	width: 100%;
+	margin-top: 20px;
+
+
+} 
+.demo-section  li{
+	list-style: none;
+	display: inline-block;
+}
+
+ .form-group .form-control{
+	width: 190%;
+	padding: 30px 20px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	box-shadow:-11px 11px 5px 1px #f6f7fc;
+
+}
+.demo-section  li a{
+	font-family: 'Brown Bold';
+	color: #845cff;
+	margin-left: 40px;
+}
+.demo-section  li a:hover{
+	color:#7c869e; 
+}
+.demo-section  li a img{
+	margin-left: 5px;
+}
+
+
+/********************************************************
+*****************Demo-section Css end****************
+*********************************************************/
+
+/********************************************************
+*****************footer-section Css start****************
+*********************************************************/
+.footer-section{
+	width: 100%;
+	padding: 60px 0px;
+	background: #212240;
+}
+.footer-section .container{
+	width: 100%;
+	padding: 10px 70px;
+}
+.footer-section .footer-inner1{
+	width: 100%;
+}
+.footer-section .footer-inner1 img{
+margin-bottom: 40px;
+
+} 
+.footer-section .footer-inner1 p{
+	font-family: 'Brown Regular';
+color: #68697d;
+font-size: 14px;
+margin-bottom: 20px;
+line-height: 25px;
+}
+.footer-section .footer-inner1 h6{
+	font-family: 'Brown Regular';
+	color: #b5b5bf;
+	margin-bottom: 30px;
+
+
+}
+.footer-section .footer-inner1 .social-icon{
+	width: 100%;
+
+
+}
+.footer-section .footer-inner1 .social-icon li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+.footer-section .footer-inner1 .social-icon li a{
+color: #68697d;
+
+}
+.footer-section .footer-inner1 .social-icon .fa{
+	font-size: 18px;
+}	
+.footer-section .footer-inner1 .social-icon .fa:hover{
+	color: #fff;
+
+}
+.footer-section .footer-inner2{
+	width: 100%;
+}
+.footer-section .footer-inner2 li{
+	list-style: none;
+	margin-bottom: 20px;
+
+}
+.footer-section .footer-inner2 li a{
+	color: #68697d;
+	font-family: 'Brown Regular';
+	font-size: 14px;
+}
+.footer-section .footer-inner2 li a:hover{
+	color: #fff;
+}
+.footer-section .footer-inner3{
+	width: 100%;
+}
+.footer-section .footer-inner3 li{
+	list-style: none;
+	margin-bottom: 20px;
+
+}
+.footer-section .footer-inner3 li a{
+	color: #68697d;
+	font-family: 'Brown Regular';
+	font-size: 14px;
+}
+.footer-section .footer-inner3 li a:hover{
+	color: #fff;
+}
+.footer-section .copy{
+	width: 100%;
+	margin-top: 40px;
+}
+.footer-section .copy p{
+	font-family: 'Brown Light';
+	color: #7c869e;
+}
+.footer-section .copy2{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: -85px;
+}
+.footer-section .copy2 li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .copy2 li a{
+	font-family: 'Brown Light';
+	color: #7c869e;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.footer-section .copy2 li a:hover{
+	color: #fff;
+}
+/********************************************************
+*****************footer-section Css end****************
+*********************************************************/
+
