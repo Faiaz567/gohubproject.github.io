@@ -161,10 +161,11 @@ font-family: 'Brown Light';
 color: #7c869e;
 }
 .feature-section .feature-inner-left1{
-	width: 100%;
-padding: 57px 35px 54px;
-box-shadow:-4px 8px 48px 6px rgba(0,0,0,0.03);
-margin-left: 100px;
+    width: 100%;
+    padding: 57px 35px 67px;
+    box-shadow: -4px 8px 48px 6px rgba(0,0,0,0.03);
+
+
 }
 .feature-section .feature-inner-left1 img{
 margin-bottom: 20px;
